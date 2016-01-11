@@ -1,0 +1,129 @@
+
+body {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+}
+.page {
+    padding: 80px 0 80px;
+}
+/*.bold{
+    font-weight: 400;
+    color: #555;
+}*/
+
+span.code{
+    font-family: 'Roboto Mono';
+    font-size: 12px;
+    color:red;
+}
+
+ol{
+    padding-left: 5px;
+}
+ol li{
+    margin-bottom: 5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+h1 {
+    font-size: 72px;
+    font-family: 'Abril Fatface';
+}
+h2 {
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 30px;
+}
+h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+h4 {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 0;
+    line-height: 28px;
+}
+
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #777;
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+
+.start{
+    background-color: #f6f6f6;
+    box-shadow: 0 2px 1px rgba(0,0,0,0.1);
+}
+
+
+.img-wrapper{    
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+}
+
+.img-wrapper.dark{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+.img-wrapper.dark:hover{
+    box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.3);
+}
+
+.img-wrapper:hover{
+    
+    box-shadow: 0 0 65px 0 rgba(0, 0, 0, 0.2)
+}
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------*/
+
+
+/* 4.19. Footer */
+
+
+/*------------------------------------------------------------------------------------------*/
+
+.footer {
+    text-align: center;
+    color: #000;
+    background-color: #f6f6f6;
+    box-shadow: 0 -4px 5px rgba(0,0,0,0.1);
+}
+
+.footer span{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
